@@ -1,0 +1,40 @@
+# String Variables
+
+fname: !!str Pushpitha
+lname: "L"
+address: 'Bengaluru'
+
+bio: 
+String variable should be in single line
+Multiple line will throw an error while parsing
+
+multiline: >
+  multiple lines will be
+  treated as single 
+
+# numbers
+n: 5473
+#float
+marks: 87.6
+# boolean yes, y, Y, Yes no, n, N, False
+booleanValue: Yes
+#exponents
+exponential num: 2334E56
+
+
+#specifying the type
+
+zero: !!int 0
+commaValue: !!int _540_000 # 540,000
+floatNum: !!float 2.0
+infinite: !!float .inf
+
+not a num: .nan
+
+#null 
+surname: !!null # Null or ~
+~: null key
+
+# date and time
+
+date:   !!timestamp 2023-11-21
