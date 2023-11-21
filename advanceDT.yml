@@ -1,0 +1,61 @@
+student: !!seq
+  - name
+  - age
+  - address
+
+rollNum: [101, 102, 103]
+
+# sparse sequence
+
+sparse seq: 
+  - India
+  - Australia
+  - Japan
+  -
+  - null
+
+# Nested seq
+
+-
+  - India
+  - USA
+  - Japan
+-
+  - Sun
+  - Moon
+  - Stars
+
+#nested mappings
+
+students of: UNI
+name: {1: ABC, 2: XYZ}
+
+# or
+
+students of: UNI
+name:
+  1: ABC
+  2: XYZ
+
+pair examples: !!pairs
+  - job: student
+  - job: teacher
+
+# or
+pair example: !!pairs [job: student, job: teacher]
+
+# Sets
+names: !!Sets
+  ? A
+  ? B
+  ? C
+
+# Dictionary
+
+thing: !!omap
+  - table: 
+    material: wood
+    price: 10000
+  - couch:
+    material: cushion
+    price: 23233
