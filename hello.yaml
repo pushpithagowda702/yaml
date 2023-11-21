@@ -1,0 +1,25 @@
+# Key-value pairs - maps
+"India" : "New Delhi"
+# or
+{One: 1, Two: 2, Three: 3}
+
+# Lists
+- "Karnataka"
+- "Tamil Nadu"
+- "Kerala"
+- "Andhra Pradesh"
+- "Telangana"
+
+---
+# Block
+cities:
+  - "Bengaluru"
+  - "Mysore"
+  - "Mumbai"
+
+---
+cities: [New Delhi, Mumbai]
+
+---
+
+...
